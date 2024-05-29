@@ -1,16 +1,15 @@
 {
-    "manifest_version": 2,
-    "name": "GCalAllDayEvents",
-    "version": "1.1",
-    "description": "Modifies Google Calendar to highlight all-day (busy status) events.",
-    "permissions": [
-      "activeTab"
-    ],
-    "content_scripts": [
-      {
-        "matches": ["*://calendar.google.com/*"],
-        "js": ["calendar-style.js"]
-      }
-    ]
-  }
-  
+  "manifest_version": 2,
+  "name": "GCalAllDayEvents",
+  "version": "2.0",
+  "description": "Modifies Google Calendar to highlight all-day (busy status) events.",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://calendar.google.com/*"],
+      "js": ["calendar-style.js"]
+    }
+  ]
+}
